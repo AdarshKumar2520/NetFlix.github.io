@@ -1,4 +1,4 @@
-# NetFlix.github.io
+# NETFLIX HOMEPAGE CLONE
 
 <h1>Netflix Homepage Clone</h1>
 <p>In this project i have clone NETFLIX Homepage using HTML and CSS</p>
