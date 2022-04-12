@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #tv_container {
+            background: url('tv-img.png') no-repeat top left transparent;
+            width: 660px;
+            /* Adjust TV image width */
+            height: 500px;
+            /* Adjust TV image height */
+            position: relative;
+        }
+
+        #tv_container video {
+            position: absolute;
+            
+            top: 23px;
+            /* Adjust top position */
+            left: 83px;
+            /* Adjust left position */
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <div id="tv_container">
+        <video width="467" height="417" autoplay loop muted playsinline>
+            <source src="netFlix.m4v" type="video/mp4" />
+        </video>
+    </div>
+</body>
+
+</html>
